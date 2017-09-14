@@ -1,0 +1,29 @@
+:global {
+    body {
+        background-color:#9A8A8A;
+        margin:0;
+    }
+}
+.red{
+    font-size: 50px;
+    color: red;
+    animation: text-animation 2s infinite;
+}
+header{
+    background-color:#3e3e3e;
+    color:#fff;
+    padding: 20px;
+}
+header a{
+    color:#B31D1D;
+    padding: 0 20px;
+    text-decoration: none;
+}
+@keyframes text-animation {
+    0% {
+      color:red;
+    }
+    100% {
+      color: #fff;
+    }
+}
